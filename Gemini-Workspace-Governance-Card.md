@@ -72,7 +72,7 @@ Precise, effective prompts help AI understand your intent and deliver accurate, 
 
 1. Dos and Don'ts:
    - **Do:** 
-       - Use Gemini in Google Workspace, [NotebookLM](https://studentprivacy.ed.gov/ferpa), and [Gemini's chatbot](https://gemini.google.com/app) in accordance with this policy on internal data.
+       - Use Gemini in Google Workspace, [NotebookLM](https://notebooklm.google.com/), and [Gemini's chatbot](https://gemini.google.com/app) in accordance with this policy on internal data.
    - **Don’t:** 
        - Use [AIStudio](https://aistudio.google.com/prompts/new_chat) with internal data. Using [Level 2 data](https://doit.maryland.gov/policies/ci/Pages/data-classification-policy.aspx) with AIStudio is not permitted without billing enabled.
 
