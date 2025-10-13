@@ -29,7 +29,7 @@ AI call recording/transcription services are considered **Limited or Minimal Ris
 - Let external participants create meeting recordings from their end or use their own software for transcription. Their tools have not been vetted by DoIT or your agency’s IT leadership, and the risk level may be higher than is allowed for Maryland State Agencies.
 
 ## 4.0 Key Risks and Mitigation Strategies
-**4.1 Data Privacy and Confidentiality**
+<h3>4.1 Data Privacy and Confidentiality</h3>
 
 **Risk:**
 - Meeting transcriptions and recordings produced by AI are considered public records, and therefore could be subject to disclosure in response to a Public Information Act (PIA) request.
@@ -40,7 +40,7 @@ AI call recording/transcription services are considered **Limited or Minimal Ris
 - Avoid discussing personal and  sensitive information (SSNs, passwords, health details, immigration status, information about children under 18 years old) in recordings.
 - Do not record confidential meetings (e.g., personnel discussions, legal consultations, IT security infrastructure), as doing so could introduce legal risks (attorney-client privilege waiver, etc.). Similarly do not record personal and  sensitive information (SSNs, passwords, health details, immigration status, information about children under 18 years old) 
 
-**4.2 Bias, Equity, and Accessibility**
+<h3>4.2 Bias, Equity, and Accessibility</h3>
 
 **Risk:** 
 AI transcription may produce inaccurate transcriptions for certain accents, regional dialects, or when technical terminology is used. See Appendix A for a detailed evaluation of common transcription errors, including:
@@ -55,7 +55,7 @@ AI transcription may produce inaccurate transcriptions for certain accents, regi
 - Always review transcripts for accuracy, particularly for speakers with accents or when technical terminology is used
 - Be aware of common transcription weaknesses detailed in Appendix A
 
-**4.3 Intellectual Property (IP) and Copyright**
+<h3>4.3 Intellectual Property (IP) and Copyright</h3>
 
 **Risk:** 
 - Watermark removal could misrepresent AI-generated content as human-created.
@@ -63,7 +63,7 @@ AI transcription may produce inaccurate transcriptions for certain accents, regi
 **Mitigation:**
 - Do not erase the "Created by AI" watermark at the end of meeting summaries and transcription notes. For example, Gemini's watermark: This editable transcript was computer-generated and might contain errors. People can also change the text after it was created.
 
-**4.4 Over-Reliance and Accountability**
+<h3>4.4 Over-Reliance and Accountability</h3>
 
 **Risk:** 
 - Users may accept AI transcription outputs without critical evaluation, leading to errors in official records or decision-making based on inaccurate transcriptions.
@@ -73,7 +73,7 @@ AI transcription may produce inaccurate transcriptions for certain accents, regi
 - Be aware that transcription errors are common and review is essential
 
 ## 5.0 Governance and Compliance
-**5.1 Approved Tools & Vendor Requirements**
+<h3>5.1 Approved Tools & Vendor Requirements</h3>
 
 **Approved Tools:** 
 
@@ -85,8 +85,8 @@ The tools that are currently approved for usage for Maryland State Agencies for 
 **Vendor Requirements:**
 
 - Gemini and Copilot both have FedRAMP High Authorizations. To learn more, visit [Gemini FedRAMP High Approval](https://workspace.google.com/blog/identity-and-security/gemini-workspace-apps-and-gemini-app-are-first-achieve-fedramp-high-authorization) and [Copilot Studio for US Government customers](https://learn.microsoft.com/en-us/microsoft-copilot-studio/requirements-licensing-gcc)
-- Gemini SOC2
-- Gemini also has additional privacy and security protections for its enterprise version: [Generative AI in Google Workspace Privacy Hub](https://learn.microsoft.com/en-us/microsoft-copilot-studio/requirements-licensing-gcc)
+- Gemini for Google Workspace users is [compliant with Soc 2 and Soc 3](https://workspaceupdates.googleblog.com/2024/08/gemini-soc-compliance.html).
+- Gemini's Enterprise version has [additional privacy and security protections](https://learn.microsoft.com/en-us/microsoft-copilot-studio/requirements-licensing-gcc).
 
 **Additional Tool Approval Process:**
 
@@ -94,12 +94,12 @@ The tools that are currently approved for usage for Maryland State Agencies for 
 - If you would like DoIT to consider approving an AI transcription tool, [submit a request](https://doitmaryland.service-now.com/doit?id=sc_cat_item&sys_id=90ebe560db6bd300b302e9ec0b9619e0) to DoIT so the SRB can assess it.
 - For more details about the AI intake process, read our [Responsible AI Implementation Guidance](https://doit.maryland.gov/policies/ai/Pages/maryland-responsible-ai-policy-implementation-guidance.aspx).
 
-**5.2 Data Handling and Retention**
+<h3>5.2 Data Handling and Retention</h3>
 
 - Transcribed notes and recordings may be subject to release under the Maryland Public Information Act, and agencies need to store them securely and retain or dispose of them per State records schedules
 - Do not record confidential meetings (e.g., personnel discussions, legal consultations) or meetings that would include confidential and restricted information (SSNs, passwords, health details) 
 
-**5.3 Consent and Disclosure Protocol**
+<h3>5.3 Consent and Disclosure Protocol</h3>
 
 **Required Consent Process:**
 
@@ -116,23 +116,27 @@ A: Example regulations your agency may be subject to include General Data Protec
 **Q: My agency has Gemini/Copilot enabled. How do I use transcription during my meetings?**
 
 A: For Gemini, follow the directions/guidance here:
-- DoIT AI Productivity Guide - Covering productive AI use cases and how to use Google Workspace systems.
-- AI Gemini Governance Card - Covering cases of Gemini and Google Workspace usage beyond transcription.
+- [DoIT AI Productivity Guide](https://docs.google.com/document/d/1UlHoRsmzTpWeJDoe9HoSxzDbO5coAwkHGx_RpdVCP1A/edit?tab=t.0) - Covering productive AI use cases and how to use Google Workspace systems.
+- [AI Gemini Governance Card](https://github.com/DoIT-Artifical-Intelligence/AI-Governance-Cards/blob/main/Gemini-Workspace-Governance-Card.md) - Covering cases of Gemini and Google Workspace usage beyond transcription.
 
 For Copilot: 
 DoIT AI Productivity Guide- Covering productive AI use cases and how to use Copilot in Microsoft 365 products.
 
 **Q: Why Gemini and Copilot?**
-- A: Gemini and Copilot both have FedRAMP High Authorizations. To learn more about the importance of FedRAMP High Authorization, please read Gemini FedRAMP High Approval and Copilot Studio for US Government customers. Gemini also has additional privacy and security protections for its enterprise version: Generative AI in Google Workspace Privacy Hub.
+
+A: Gemini and Copilot both have FedRAMP High Authorizations. To learn more about the importance of FedRAMP High Authorization, please read Gemini FedRAMP High Approval and Copilot Studio for US Government customers. Gemini also has additional privacy and security protections for its enterprise version: Generative AI in Google Workspace Privacy Hub.
 
 **Q: I would like to use a different software than Gemini and Copilot. Am I prohibited from using it?**
-- A: DoIT’s AI Enablement team will have to review the policies, terms, and conditions applicable to the software and its use case before granting approval. Please [submit your request through DoIT's intake process](https://doitmaryland.service-now.com/doit?id=sc_cat_item&sys_id=90ebe560db6bd300b302e9ec0b9619e0). For more details about the AI intake process, refer our [Responsible AI Implementation Guidance.](https://doit.maryland.gov/policies/ai/Pages/maryland-responsible-ai-policy-implementation-guidance.aspx)
+
+A: DoIT’s AI Enablement team will have to review the policies, terms, and conditions applicable to the software and its use case before granting approval. Please [submit your request through DoIT's intake process](https://doitmaryland.service-now.com/doit?id=sc_cat_item&sys_id=90ebe560db6bd300b302e9ec0b9619e0). For more details about the AI intake process, refer our [Responsible AI Implementation Guidance.](https://doit.maryland.gov/policies/ai/Pages/maryland-responsible-ai-policy-implementation-guidance.aspx)
 
 **Q: Why can't I use software that hasn't been approved by the AI Enablement Team, if transcription is an approved use case?**
-- A: The AI Enablement team evaluates the risk level of the software in addition to the use case, by referencing [Maryland's Data Classification Policy](https://doit.maryland.gov/policies/ci/Pages/data-classification-policy.aspx) and higher authority standards like HIPAA and FedRAMP. This process is not meant to hinder you from using AI, but to abide by statutory  AI inventory requirements and acceptable risk levels.
+
+A: The AI Enablement team evaluates the risk level of the software in addition to the use case, by referencing [Maryland's Data Classification Policy](https://doit.maryland.gov/policies/ci/Pages/data-classification-policy.aspx) and higher authority standards like HIPAA and FedRAMP. This process is not meant to hinder you from using AI, but to abide by statutory  AI inventory requirements and acceptable risk levels.
 
 **Q: I have more legal questions than what's covered in this card.**
-- A: These questions are best directed to your agency's counsel.
+
+A: These questions are best directed to your agency's counsel.
 
 ## Appendix
 
