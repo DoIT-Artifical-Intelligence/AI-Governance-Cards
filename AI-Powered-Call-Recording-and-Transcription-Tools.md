@@ -140,7 +140,7 @@ A: These questions are best directed to your agency's counsel.
 
 ## Appendix
 
-**Appendix A: Evaluation Section**
+<h3>Appendix A: Evaluation Section</h3>
 
 Last updated: 09/05/2025
 
@@ -164,7 +164,7 @@ Even though speech-to-text transcription software has become more accurate and h
 **6. General Errors:** 
 - Sometimes an error will occur that doesn't match a matter. In testing, for example, when the speaker said "Does", the software transcribed it as "Is". While these errors are generally harmless, it is possible that the error changes the meaning of the sentence. Likelihood: Medium
 
-**Appendix B: Current Gemini and Copilot Policies**
+<h3>Appendix B: Current Gemini and Copilot Policies</h3>
 
 Last updated: 07/15/2025
 
